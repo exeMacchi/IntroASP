@@ -1,0 +1,41 @@
+﻿*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--font-normal);
+}
+
+/* Con esto se evita que haya contenido vacío cuando se achica el zoom del 
+   navegador */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: var(--fontSize-medium);
+    color: white;
+    background: linear-gradient(to bottom, rgba(2,0,36,1) 0%, rgba(63,63,82,1) 100%);
+}
+
+body > main {
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}

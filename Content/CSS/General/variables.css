@@ -1,0 +1,30 @@
+﻿:root {
+    /* ------ Fonts ----- */
+    --font-normal: sans-serif;
+    
+    /* --- Font Sizes --- */
+    --fontSize-display: 4.6rem;
+    --fontSize-xjumbo: 4.2rem;
+    --fontSize-jumbo: 3.8rem;
+    --fontSize-xxlarge: 3.2rem;
+    --fontSize-xlarge: 3rem;
+    --fontSize-large: 2.4rem;
+    --fontSize-xmedium: 2rem;
+    --fontSize-medium: 1.8rem;
+    --fontSize-small: 1.6rem;
+    --fontSize-xsmall: 1.4rem;
+    --fontSize-xxsmall: 1.2rem;
+
+    /* ---- Spacings ---- */
+    --spacing-128: 12.8rem;
+    --spacing-100: 10rem;
+    --spacing-68: 6.8rem;
+    --spacing-48: 4.8rem;
+    --spacing-36: 3.6rem;
+    --spacing-28: 2.8rem;
+    --spacing-24: 2.4rem;
+    --spacing-20: 2rem;
+    --spacing-16: 1.6rem;
+    --spacing-12: 1.2rem;
+    --spacing-8: 0.8rem;
+}

@@ -1,0 +1,12 @@
+﻿/* Contenedores principales */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--spacing-16);
+}
+
+/* Ancho máximo de 1200px */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}

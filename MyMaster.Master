@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MyMaster.Master.cs" Inherits="AspIntro.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="~/Content/CSS/General/variables.css" rel="stylesheet" />
+    <link href="~/Content/CSS/General/normalize.css" rel="stylesheet"  />
+    <link href="~/Content/CSS/General/general.css" rel="stylesheet" />
+    <link href="~/Content/CSS/General/header_footer.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <!-- HEADER -->
+            <header>
+                <nav class="navbar container">
+                    <figure>
+                        <p>Logo</p>
+                    </figure>
+                    <ul class="navbar__menu--header">
+                        <li><a class="navbar__link" href="Default.aspx">Home</a></li>
+                        <li><a>Proyectos</a></li>
+                        <li><a>Contacto</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- MAIN -->
+            <main class="main-container">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </main>
+
+            <!-- FOOTER -->
+            <footer>
+                <nav class="navbar container">
+                    <ul class="navbar__menu--footer">
+                        <li>LinkedIn</li>
+                        <li>GitHub</li>
+                        <li>Gmail</li>
+                    </ul>
+                    <figure>
+                        <p>Logo</p>
+                    </figure>
+                </nav>
+                <p class="container footer__copy">Copyright <%: DateTime.Now.Year %></p>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>

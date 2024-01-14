@@ -1,0 +1,25 @@
+﻿header,
+footer {
+    padding: var(--spacing-36) var(--spacing-100);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__menu--header {
+    display: flex;
+    gap: var(--spacing-36);
+}
+
+.navbar__menu--footer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer__copy {
+    margin-top: var(--spacing-12);
+}
