@@ -1,0 +1,80 @@
+﻿/* --- Proyectos destacados --- */
+.main-projects {
+    width: 1200px;
+}
+
+/* --- Proyectos varios --- */
+.other-projects {
+    width: 1200px;
+}
+
+
+/* --- Project-card --- */
+.project-card {
+    background-color: darkslategray;
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 200px;
+    transition: background-color ease-in-out 0.5s, transform 0.5s ease;
+}
+
+.project-card:hover {
+    background-color: dimgray;
+    transform: scale(95%);
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+/* --- Slider --- */
+.glide-first,
+.glide-second {
+    position: relative; /* Esto es para los botones */
+}
+
+.glide__title {
+    margin-bottom: var(--spacing-16);
+}
+
+/* --- FIRST SLIDER --- */
+.glide-first__arrow--left {
+    left: -4em;
+    top: 11em;
+}
+
+.glide-first__arrow--right {
+    right: -4em;
+    top: 11em;
+}
+
+.glide-first__arrow--right:hover,
+.glide-first__arrow--left:hover {
+    background-color: dimgray;
+}
+
+.glide-first__arrow--right:hover > iconify-icon,
+.glide-first__arrow--left:hover > iconify-icon {
+    color: var(--font-light-solid);
+}
+
+/* --- SECOND SLIDER --- */
+.glide-second__arrow--left {
+    left: -4em;
+    top: 11em;
+}
+
+.glide-second__arrow--right {
+    right: -4em;
+    top: 11em;
+}
+
+/* BREAKPOINTS */
+/* Celulares */
+@media screen and (max-width: 535px) {
+    .glide__arrow--left {
+        left: 0;
+    }
+    
+    .glide__arrow--right {
+        right: 0;
+    }
+}

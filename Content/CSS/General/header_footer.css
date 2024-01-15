@@ -9,11 +9,22 @@ footer {
     align-items: center;
 }
 
+/* --- Navbar Header --- */
 .navbar__menu--header {
     display: flex;
     gap: var(--spacing-36);
 }
 
+.navbar__link {
+    transition: color 0.5s ease;
+}
+
+.navbar__link:hover {
+    color: gray;
+}
+
+
+/* --- Navbar Footer --- */
 .navbar__menu--footer {
     display: flex;
     flex-direction: column;
@@ -22,4 +33,6 @@ footer {
 
 .footer__copy {
     margin-top: var(--spacing-12);
+    padding: var(--spacing-36) 0;
+    text-align: center;
 }

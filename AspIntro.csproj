@@ -67,18 +67,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\CSS\contact.css" />
     <Content Include="Content\CSS\General\general.css" />
     <Content Include="Content\CSS\default.css" />
     <Content Include="Content\CSS\General\header_footer.css" />
     <Content Include="Content\CSS\General\normalize.css" />
     <Content Include="Content\CSS\General\variables.css" />
+    <Content Include="Content\CSS\projects.css" />
+    <Content Include="Content\JS\slider.js" />
     <Content Include="Global.asax" />
+    <Content Include="Pages\Contact.aspx" />
+    <Content Include="Pages\Projects.aspx" />
     <Content Include="Web.config" />
     <Content Include="Default.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Projects.aspx.cs">
+      <DependentUpon>Projects.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Projects.aspx.designer.cs">
+      <DependentUpon>Projects.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MyMaster.Master.cs">
@@ -109,7 +128,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Pages\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -21,9 +21,9 @@
                         <p>Logo</p>
                     </figure>
                     <ul class="navbar__menu--header">
-                        <li><a class="navbar__link" href="Default.aspx">Home</a></li>
-                        <li><a>Proyectos</a></li>
-                        <li><a>Contacto</a></li>
+                        <li><a class="navbar__link" href="/Default.aspx">Inicio</a></li>
+                        <li><a class="navbar__link" href="/Pages/Projects.aspx">Proyectos</a></li>
+                        <li><a class="navbar__link" href="/Pages/Contact.aspx">Contacto</a></li>
                     </ul>
                 </nav>
             </header>
@@ -46,7 +46,7 @@
                         <p>Logo</p>
                     </figure>
                 </nav>
-                <p class="container footer__copy">Copyright <%: DateTime.Now.Year %></p>
+                <p class="container footer__copy">Todos los derechos reservados &copy - <%: DateTime.Now.Year %></p>
             </footer>
         </div>
     </form>

@@ -2,8 +2,11 @@
 .main-container {
     display: flex;
     flex-direction: column;
+    gap: var(--spacing-48);
     margin-top: var(--spacing-16);
+    padding: 0 var(--spacing-100);
 }
+
 
 /* Ancho máximo de 1200px */
 .container {
