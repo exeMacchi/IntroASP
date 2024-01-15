@@ -6,7 +6,7 @@
     background-color: darkslategray;
     border: 2px solid white;
     border-radius: 20px;
-    width: 1200px;
+    width: 750px;
     padding: var(--spacing-48) var(--spacing-100);
 }
 
@@ -24,11 +24,5 @@
 .form__input {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     gap: var(--spacing-48);
-}
-
-.form__submit {
-    align-self: flex-end;
-    padding: var(--spacing-20) var(--spacing-36);
 }
